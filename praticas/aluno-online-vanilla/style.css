@@ -1,8 +1,8 @@
 :root {
   --cor-fundo: #e9e9e9;
   --cor-texto: #303030;
-  --cor-branco: #ffffff;
-  --cor-borda: #cccccc;
+  --cor-branco: #fff;
+  --cor-borda: #ccc;
 }
 
 * {
@@ -17,6 +17,9 @@ body {
   line-height: 1.5;
   background-color: var(--cor-fundo);
   color: var(--cor-texto);
+}
+
+.app-container {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -100,8 +103,8 @@ body {
   list-style-position: inside;
 }
 
-@media (min-width: 768px) {
-  body { 
+@media (width >= 768px) {
+  .app-container {
     flex-direction: row;
   }
 
