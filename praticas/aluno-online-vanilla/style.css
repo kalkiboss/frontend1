@@ -17,9 +17,6 @@ body {
   line-height: 1.5;
   background-color: var(--cor-fundo);
   color: var(--cor-texto);
-}
-
-.app-container {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -104,7 +101,7 @@ body {
 }
 
 @media (min-width: 768px) {
-  .app-container {
+  body { 
     flex-direction: row;
   }
 
