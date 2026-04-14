@@ -1,7 +1,9 @@
-import "./App.css";
+import Notas from './pages/Notas/Notas';
 
 function App() {
-  return <></>;
+  return (
+    <Notas />
+  );
 }
 
 export default App;
