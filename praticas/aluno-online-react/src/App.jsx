@@ -1,8 +1,8 @@
-import Notas from './pages/Notas/Notas';
+import Dashboard from './pages/Dashboard/Dashboard';
 
 function App() {
   return (
-    <Notas />
+    <Dashboard />
   );
 }
 

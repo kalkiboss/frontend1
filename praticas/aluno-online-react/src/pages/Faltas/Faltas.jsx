@@ -1,4 +1,5 @@
 import Layout from "../../components/Layout/Layout";
+import Card from "../../components/Card";
 import "./Faltas.css";
 
 function Faltas() {
@@ -7,8 +8,7 @@ function Faltas() {
       <h1>Minhas Faltas</h1>
       <h3>Histórico de Faltas por Semestre</h3>
       
-      <section className="table-container">
-        <div className="table-header">2026.1</div>
+      <Card title="2026.1">
         <table>
           <thead>
             <tr>
@@ -35,7 +35,7 @@ function Faltas() {
             </tr>
           </tbody>
         </table>
-      </section>
+      </Card>
     </Layout>
   );
 }

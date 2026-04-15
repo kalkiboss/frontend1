@@ -1,4 +1,5 @@
 import Layout from "../../components/Layout/Layout";
+import Card from "../../components/Card";
 import "./Notas.css";
 
 function Notas() {
@@ -7,9 +8,7 @@ function Notas() {
       <h1>Minhas Notas</h1>
       <h3>Histórico de Notas por Semestre</h3>
       
-      {/* Bloco 2026.1 */}
-      <section className="table-container">
-        <div className="table-header">2026.1</div>
+      <Card title="2026.1">
         <table>
           <thead>
             <tr>
@@ -30,7 +29,7 @@ function Notas() {
             </tr>
           </tbody>
         </table>
-      </section>
+      </Card>
     </Layout>
   );
 }
