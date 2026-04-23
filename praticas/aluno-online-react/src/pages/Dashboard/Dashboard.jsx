@@ -1,4 +1,5 @@
 import Layout from "../../components/Layout/Layout";
+import Card from "../../components/Card"; 
 import "./Dashboard.css";
 
 function Dashboard() {
@@ -7,32 +8,23 @@ function Dashboard() {
       <h1>Olá, Aluno!</h1>
       <p>Bem-vindo ao portal do aluno</p>
       
-      <section className="card">
-        <div className="card-header">Mural de Avisos</div>
-        <div className="card-body">
-          <p>Inscrição para o projeto de extensão</p>
-          <p>Eleição para representante de turma</p>
-        </div>
-      </section>
+      <Card title="Mural de Avisos">
+        <p>Inscrição para o projeto de extensão</p>
+        <p>Eleição para representante de turma</p>
+      </Card>
 
-      <section className="card">
-        <div className="card-header">Calendário Acadêmico</div>
-        <div className="card-body">
-          <p>23/02 - Início do período letivo 2026-1</p>
-          <p>25/04 - Prazo final para aplicação da P1</p>
-          <p>23/06 - Prazo final para aplicação da P2</p>
-          <p>04/07 - Fim do período letivo 2026-1</p>
-        </div>
-      </section>
+      <Card title="Calendário Acadêmico">
+        <p>23/02 - Início do período letivo 2026-1</p>
+        <p>25/04 - Prazo final para aplicação da P1</p>
+        <p>23/06 - Prazo final para aplicação da P2</p>
+        <p>04/07 - Fim do período letivo 2026-1</p>
+      </Card>
 
-      <section className="card">
-        <div className="card-header">Minhas Disciplinas</div>
-        <div className="card-body">
-          <p>BI e Data Warehousing</p>
-          <p>Construção de Frontend</p>
-          <p>Manutenção de Software e Devops</p>
-        </div>
-      </section>
+      <Card title="Minhas Disciplinas">
+        <p>BI e Data Warehousing</p>
+        <p>Construção de Frontend</p>
+        <p>Manutenção de Software e Devops</p>
+      </Card>
     </Layout>
   );
 }
