@@ -1,9 +1,8 @@
-import Layout from "../../components/Layout/Layout";
 import "./Dashboard.css";
 
 function Dashboard() {
   return (
-    <Layout>
+    <>
       <h1>Olá, Aluno!</h1>
       <p>Bem-vindo ao portal do aluno</p>
       
@@ -33,7 +32,7 @@ function Dashboard() {
           <p>Manutenção de Software e Devops</p>
         </div>
       </section>
-    </Layout>
+    </>
   );
 }
 

@@ -1,9 +1,8 @@
-import Layout from "../../components/Layout/Layout";
 import "./Faltas.css";
 
 function Faltas() {
   return (
-    <Layout>
+    <>
       <h1>Minhas Faltas</h1>
       <h3>Histórico de Faltas por Semestre</h3>
       
@@ -36,7 +35,7 @@ function Faltas() {
           </tbody>
         </table>
       </section>
-    </Layout>
+    </>
   );
 }
 

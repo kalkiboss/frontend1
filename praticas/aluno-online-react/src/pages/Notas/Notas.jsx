@@ -1,9 +1,8 @@
-import Layout from "../../components/Layout/Layout";
 import "./Notas.css";
 
 function Notas() {
   return (
-    <Layout>
+    <>
       <h1>Minhas Notas</h1>
       <h3>Histórico de Notas por Semestre</h3>
       
@@ -31,7 +30,7 @@ function Notas() {
           </tbody>
         </table>
       </section>
-    </Layout>
+    </>
   );
 }
 

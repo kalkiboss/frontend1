@@ -1,15 +1,17 @@
 import './Layout.css';
 import Sidebar from '../Layout/Sidebar'; 
 import Header from '../Layout/Header';
+import {Outlet} from 'react-router-dom';
 
-function Layout({ children, title }) {
+
+function Layout({ title }) {
   return (
     <div className="container">
       <Sidebar />
       <div className="main-wrapper">
         <Header title={title} />
         <main className="content-area">
-          {children}
+          <Outlet/>
         </main>
       </div>
     </div>
