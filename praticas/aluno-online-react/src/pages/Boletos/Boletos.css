@@ -1,39 +1,11 @@
-.page-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.content-wrapper {
-  flex: 1;
-  background-color: #f9f9f9;
-}
-
-.main-content {
-  padding: 20px;
-}
-
-.table-container {
-  background: white;
-  border-radius: 8px;
-  margin-top: 20px;
-  border: 1px solid #ddd;
-  overflow-x: auto;
-}
-
-.table-header {
-  background: #e0e0e0;
-  padding: 12px;
-  font-weight: bold;
-}
-
+/* Estilos específicos para a tabela de Boletos */
 table {
   width: 100%;
   border-collapse: collapse;
   min-width: 600px;
 }
 
-th,
-td {
+th, td {
   border: 1px solid #eee;
   padding: 12px;
   text-align: left;
@@ -43,14 +15,4 @@ th {
   background-color: #f4f4f4;
   color: #666;
   font-size: 0.9rem;
-}
-
-@media (min-width: 768px) {
-  .page-container {
-    flex-direction: row;
-  }
-
-  .content-wrapper {
-    margin-left: 250px;
-  }
 }

@@ -6,7 +6,6 @@ function Notas() {
       <h1>Minhas Notas</h1>
       <h3>Histórico de Notas por Semestre</h3>
       
-      {/* Bloco 2026.1 */}
       <section className="table-container">
         <div className="table-header">2026.1</div>
         <table>

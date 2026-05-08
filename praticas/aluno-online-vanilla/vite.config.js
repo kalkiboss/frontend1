@@ -1,6 +1,5 @@
 export default {
   appType: "mpa",
-  // Configuração para Multi-Page Application (MPA)
   build: {
     rollupOptions: {
       input: {
@@ -9,7 +8,7 @@ export default {
       },
     },
   },
-  // Configuração do Servidor para Docker  
+
   server: {
     host: "0.0.0.0",
     port: 5173,

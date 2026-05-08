@@ -11,7 +11,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Layout />}>
         
-        <Route index element={<Dashboard />} /> {/* index significa que é a rota padrão (/) */}
+        <Route index element={<Dashboard />} />
         <Route path="faltas" element={<Faltas />} />
         <Route path="notas" element={<Notas />} />
         <Route path="boletos" element={<Boletos />} />

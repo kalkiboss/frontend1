@@ -21,6 +21,6 @@
     flex-direction: row;
   }
   .main-wrapper {
-    margin-left: 250px; /* Largura da Sidebar */
+    margin-left: 250px;
   }
 }
