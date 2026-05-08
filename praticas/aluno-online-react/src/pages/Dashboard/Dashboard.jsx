@@ -1,10 +1,9 @@
-import Layout from "../../components/Layout/Layout";
-import Card from "../../components/Card"; 
 import "./Dashboard.css";
+import Card from "../../components/Card"; 
 
 function Dashboard() {
   return (
-    <Layout>
+    <>
       <h1>Olá, Aluno!</h1>
       <p>Bem-vindo ao portal do aluno</p>
       
@@ -25,7 +24,7 @@ function Dashboard() {
         <p>Construção de Frontend</p>
         <p>Manutenção de Software e Devops</p>
       </Card>
-    </Layout>
+    </>
   );
 }
 

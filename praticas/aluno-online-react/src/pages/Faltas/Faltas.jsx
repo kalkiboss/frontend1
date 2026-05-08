@@ -1,14 +1,13 @@
-import Layout from "../../components/Layout/Layout";
-import Card from "../../components/Card";
 import "./Faltas.css";
 
 function Faltas() {
   return (
-    <Layout>
+    <>
       <h1>Minhas Faltas</h1>
       <h3>Histórico de Faltas por Semestre</h3>
       
-      <Card title="2026.1">
+      <section className="table-container">
+        <div className="table-header">2026.1</div>
         <table>
           <thead>
             <tr>
@@ -35,8 +34,8 @@ function Faltas() {
             </tr>
           </tbody>
         </table>
-      </Card>
-    </Layout>
+      </section>
+    </>
   );
 }
 

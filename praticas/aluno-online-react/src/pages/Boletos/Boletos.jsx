@@ -1,13 +1,11 @@
-import Layout from "../../components/Layout/Layout";
-import Card from "../../components/Card";
 import './Boletos.css';
 
 function Boletos() {
   return (
-    <Layout>
+   <>
       <h1>Meus Boletos</h1>
       
-      <Card>
+      <section className="table-container">
         <table>
           <thead>
             <tr>
@@ -29,8 +27,8 @@ function Boletos() {
             </tr>
           </tbody>
         </table>
-      </Card>
-    </Layout>
+      </section>
+    </>
   );
 }
 

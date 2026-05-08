@@ -1,14 +1,12 @@
-import Layout from "../../components/Layout/Layout";
-import Card from "../../components/Card"; 
 import "./Requerimentos.css";
 
 function Requerimentos() {
   return (
-    <Layout>
+    <>
       <h1>Meus Requerimentos</h1>
       <h3>Faça solicitações online para a secretaria</h3>
       
-      <Card>
+      <section className="table-container">
         <table>
           <thead>
             <tr>
@@ -45,8 +43,8 @@ function Requerimentos() {
             </tr>
           </tbody>
         </table>
-      </Card>
-    </Layout>
+      </section>
+    </>
   );
 }
 
